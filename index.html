@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+<div>
+    <input type='text' class='date-value' />
+    <div class='datepicker'>
+        <div class="header">
+            <button class="btn prev-year"><i class="double-prev"></i></button>
+            <button class="btn prev-month"><i class="prev btn-cal prev"></i></button>
+            <span class="cal-year"></span>
+            <span class="cal-month"></span>
+            <button class="btn next-month"><i class="next btn-cal next"></i></button>
+            <button class="btn next-year"><i class="double-next" ></i></button>
+        </div>
+        <table class="cal-table">
+            <thead>
+            <tr>
+                <th>일</th>
+                <th>월</th>
+                <th>화</th>
+                <th>수</th>
+                <th>목</th>
+                <th>금</th>
+                <th>토</th>
+            </tr>
+            </thead>
+            <tbody class="cal-body"></tbody>
+        </table>
+    </div>
+</div>
+</body>
+<script src="./main.js"></script>
+</html>
